@@ -1,0 +1,27 @@
+{
+   "name": "api-biblioteca",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "ts-node-dev ./src/shared/infrastructure/http/server.ts"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "mysql2": "^2.3.3",
+      "sequelize": "^6.20.1"
+   },
+   "devDependencies": {
+      "@types/cors": "^2.8.12",
+      "@types/express": "^4.17.13",
+      "@types/node": "^17.0.39",
+      "sequelize-cli": "^6.4.1",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^4.7.3"
+   }
+}
